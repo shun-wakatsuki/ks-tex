@@ -12,7 +12,7 @@
 * `tex_inst.tex`     「TeX Live のインストール」
 * `tex_practice.tex` 「TeX 実習」
 * `tex_mik.tex`      「pTeX 系列以外による日本語文書作成」
-* `tensaku.tex`
+* `tensaku.tex`      「LaTeXレポート添削」
 
 の 4 つです．
 それぞれ
