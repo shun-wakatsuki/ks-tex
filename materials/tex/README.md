@@ -8,14 +8,19 @@
 
 # TA向けの情報
 メインとなるファイルは
-* tex_inst.tex     「TeX Live のインストール」
-* tex_practice.tex 「TeX 実習」
-* tex_mik.tex      「pTeX 系列以外による日本語文書作成」
-の 3 つです．
 
+* `tex_inst.tex`     「TeX Live のインストール」
+* `tex_practice.tex` 「TeX 実習」
+* `tex_mik.tex`      「pTeX 系列以外による日本語文書作成」
+* `tensaku.tex`
+
+の 4 つです．
 それぞれ
-* lualatex tex_inst.tex
-* lualatex tex_practice.tex
-* xelatex tex_mik.tex
+
+* `lualatex tex_inst.tex`
+* `lualatex tex_practice.tex`
+* `xelatex tex_mik.tex`
+* `platex tensaku.tex && dvipdfmx tensaku.dvi`
+
 でタイプセットされます．luajitlatex が利用できる環境ならば，
 lualatex よりこちらの方が若干速いです．
