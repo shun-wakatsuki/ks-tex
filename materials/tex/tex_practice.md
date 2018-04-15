@@ -26,7 +26,7 @@ PDFファイルなどはダウンロードした後にPDFビューアを用い�
 - pTeX・pLaTeX 系列以外で日本語文書作成をしたければ，
   [pTeX系列以外による日本語文書作成](tex_mik.pdf) を参照すること．
 - 画像挿入の例では，次の 2 ファイルを使う:
-  [fig1.png](fig1.png) および [fig2.png](fig2.pdf)．
+  [fig1.png](fig1.png) および [fig2.pdf](fig2.pdf)．
 
 ## ソースファイル修正課題
 - ソースファイル [KS_3a.tex](KS_3a.tex) をタイプセットしようとするとエラーが発生する．
