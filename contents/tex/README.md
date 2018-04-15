@@ -7,6 +7,7 @@
 受講生は[実習資料](tex_practice.md)を読んで実習を行ってください．
 
 # TA向けの情報
+## タイプセット方法
 メインとなるファイルは
 
 * `tex_inst.tex`     「TeX Live のインストール」
@@ -20,7 +21,16 @@
 * `lualatex tex_inst.tex`
 * `lualatex tex_practice.tex`
 * `xelatex tex_mik.tex`
-* `platex tensaku.tex && dvipdfmx tensaku.dvi`
+* `platex tensaku.tex && dvipdfmx tensaku.dvi` (これは「普通の」やつ)
 
 でタイプセットされます．luajitlatex が利用できる環境ならば，
 lualatex よりこちらの方が若干速いです．
+
+## トラブルシューティング
+`lualatex`でタイプセットするときに
+```
+! LaTeX Error: File `xunicode.sty' not found.
+```
+なるエラーが出た場合は，
+`sudo apt install texlive-xetex`
+で解決する(かもしれない)
